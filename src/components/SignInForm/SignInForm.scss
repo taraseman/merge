@@ -1,0 +1,24 @@
+@import "../../styles/variables.scss";
+
+.sign-in-form {
+  font-weight: 600;
+  font-size: 14px;
+
+  &__title {
+    margin-bottom: 15px;
+
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  &__sign-up-link {
+    margin-left: 9px;
+
+    text-decoration: none;
+    color: $primary_blue;
+  }
+
+  &__head {
+    margin-bottom: 61px;
+  }
+}

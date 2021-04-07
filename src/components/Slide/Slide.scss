@@ -1,0 +1,29 @@
+.slide {
+  &__img {
+    margin: auto;
+    margin-bottom: 63px;
+    // box-shadow: 0 0 10px rgba(0, 46, 123, 0.7);
+    // filter: blur(100px);
+
+  }
+
+  &__title {
+    margin-bottom: 15px;
+
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+  }
+
+  &__text {
+    margin-bottom: 84px;
+
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+  }
+}

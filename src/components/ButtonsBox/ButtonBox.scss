@@ -1,0 +1,25 @@
+.button-box {
+  display: flex;
+  justify-content: center;
+
+  &__button {
+    padding: 0;
+
+    height: 8px;
+    width: 8px;
+
+    border: 0;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    outline: none;
+    
+    &--active {
+      background-color: #fff;
+    }
+  }
+
+  &__label {
+    padding: 22.5px;
+    margin: 0;
+  }
+}
