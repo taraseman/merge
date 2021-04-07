@@ -1,6 +1,7 @@
 # Merge Development React :globe_with_meridians:
 
  - [DeMo](https://taraseman.github.io/merge/).
+ - [Figma design](https://www.figma.com/file/ZOq65T4KyUTVgRdxPmclil/Merge-Front-end-Task?node-id=0%3A1)
 
 ## Local deployment
 
