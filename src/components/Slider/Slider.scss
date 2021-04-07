@@ -9,8 +9,8 @@
 
   box-sizing: border-box;
 
-  padding-top: 206px;
-  padding-bottom: 122px;
+  padding-top: 200px;
+  padding-bottom: 75px;
 
   border-radius: 15px;
 
@@ -28,5 +28,11 @@
     width: 500px;
     margin: auto 0;
     overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .slider {
+    width: 100%;
   }
 }

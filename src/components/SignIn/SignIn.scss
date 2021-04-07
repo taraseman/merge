@@ -1,8 +1,14 @@
 .sign-in {
-  padding: 51px 120px 50px 82px;
-  padding-bottom: 0;
+  padding: 51px 120px 0 82px;
   width: 44%;
+
   &__logo {
     margin-bottom: 112px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .sign-in {
+    width: 100%;
   }
 }

@@ -1,6 +1,8 @@
 @import "../../styles/variables.scss";
 
 .sign-in-input {
+  position: relative;
+
   &__label {
     display: block;
 
@@ -14,8 +16,32 @@
 
     margin-top: 14px;
     margin-bottom: 30px;
+    padding-left: 20px;
 
     border: 1px solid $default_input_border_color;
     border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+
+    &--error {
+      border: 1px solid#FF4B26;
+    }
+
+    &--is-logined {
+      border: 1px solid#6FCF97;
+    }
+
+    &:focus {
+      border: 1px solid #065bea;
+    }
+  }
+
+  &__link-password {
+    position: absolute;
+    right: 20px;
+    top: 52px;
+
+    text-decoration: none;
+    color: $link_color;
   }
 }

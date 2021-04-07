@@ -1,8 +1,8 @@
 {
   "name": "products-inforse",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
@@ -19,8 +19,13 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint-js": "eslint --ext .ts,.tsx,.js,.jsx ./src/ --fix",
+    "lint-css": "stylelint src/**/*.css src/**/*.scss --fix",
+    "lint": "npm run lint-js && npm run lint-css"
   },
   "eslintConfig": {
     "extends": [

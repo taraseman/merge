@@ -11,7 +11,17 @@
   color: #fff;
   font-size: 16px;
 
+  transition: background-color 0.2s;
+
   &:hover {
     background-color: $primary_blue_hover;
+  }
+
+  &:active {
+    background-color: $primary_blue;
+  }
+
+  &:disabled {
+    background-color: #c6d0e0;
   }
 }

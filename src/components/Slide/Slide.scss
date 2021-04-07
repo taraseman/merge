@@ -2,9 +2,6 @@
   &__img {
     margin: auto;
     margin-bottom: 63px;
-    // box-shadow: 0 0 10px rgba(0, 46, 123, 0.7);
-    // filter: blur(100px);
-
   }
 
   &__title {
@@ -19,6 +16,7 @@
 
   &__text {
     margin-bottom: 84px;
+    width: 500px;
 
     text-align: center;
     font-family: "Montserrat", sans-serif;

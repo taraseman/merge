@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Slide.scss';
 
 export const Slide = ({ imgSrc, title, text }) => (
@@ -12,3 +13,15 @@ export const Slide = ({ imgSrc, title, text }) => (
     <p className="slide__text">{text}</p>
   </li>
 );
+
+Slide.propTypes = {
+  imgSrc: PropTypes.string,
+  title: PropTypes.string,
+  text: PropTypes.string,
+};
+
+Slide.defaultProps = {
+  imgSrc: '',
+  title: '',
+  text: '',
+};
